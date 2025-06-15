@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #f0eef4;
+}
+
+#head_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: fixed;
+  background-color: #fbfcfe;
+  grid-auto-rows: minmax(40px, 60px);
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#head_container img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+#search_div{
+    place-self: center;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-evenly;
+}
