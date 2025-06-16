@@ -3,10 +3,11 @@ body {
   background-color: #f0eef4;
 }
 
+
+/* header styling started */
 #head_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  position: fixed;
+  grid-template-columns: 1fr 2fr 1fr;
   background-color: #fbfcfe;
   grid-auto-rows: minmax(40px, 60px);
   width: 100%;
@@ -18,15 +19,88 @@ body {
 
 #head_container img {
   object-fit: contain;
-  width: 100%;
-  height: 100%;
+  width: 160px;
+  height: 40px;
+  justify-self: center;
 }
 
-#search_div{
-    place-self: center;
+#search_div {
+  place-self: center;
+  display: grid;
+  grid-template-columns: auto 0.2fr;
+  gap: 5px;
+  appearance: none;
 }
+
+#input_search {
+  width: 500px;
+  height: 20px;
+  padding: 10px;
+  font-size: medium;
+  background-color: #f0eef4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(10, 21, 10, 0.5);
+}
+
 nav {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 20px;
 }
+
+.button {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.navb {
+  background-color: rgb(8, 8, 112);
+  color: white;
+}
+
+.searchb {
+  background-color: rgb(121, 75, 6);
+  color: white;
+}
+.button:hover {
+  border-radius: 20px/10px;
+  background-color: rgb(111, 62, 157);
+}
+
+/* header styling ended */
+
+/* main styling started */
+main{
+  padding: 20px;
+  display: grid;
+  row-gap: 20px;
+}
+
+/* navigation_links_sec styles started */
+
+#navigation_links_sec{
+  background-color: #fbfcfe;
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+  justify-items: center;
+  padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a h4{
+  margin: 0px auto;
+  text-align: center;
+}
+
+/* navigation_links_sec styles ended */
+
+
+
+
+/* main styling ended */
