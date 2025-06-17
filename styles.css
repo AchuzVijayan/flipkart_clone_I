@@ -102,11 +102,6 @@ a h4 {
 
 /* banner_div styles started */
 
-.main_banner_div {
-  /* display: grid;
-  grid-template-columns: 1fr; */
-}
-
 .main_banner_div img {
   width: 100%;
   height: 100%;
@@ -118,8 +113,6 @@ a h4 {
   align-items: stretch;
   box-sizing: border-box;
   column-gap: 10px;
-
-  
 }
 
 .banner_div img {
@@ -127,5 +120,7 @@ a h4 {
   height: 100%;
 }
 /* banner_div styles ended */
+
+
 
 /* main styling ended */
