@@ -121,6 +121,28 @@ a h4 {
 }
 /* banner_div styles ended */
 
+/* lower banner styling started */
+#sec4{
+  display: grid;
+  place-content: center ;
+}
 
+#lower_ban_header{
+  display: grid;
+  place-content: center;
+}
+
+.pdtbanners{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-auto-rows: minmax(100px,200px);
+}
+
+.items img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+/* lower banner styling ended  */
 
 /* main styling ended */
