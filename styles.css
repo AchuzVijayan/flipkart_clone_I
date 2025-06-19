@@ -124,24 +124,40 @@ a h4 {
 /* lower banner styling started */
 #sec4{
   display: grid;
-  place-content: center ;
+  background-color: #FFFFFF;
+  /* place-content: center ; */
 }
 
 #lower_ban_header{
   display: grid;
-  place-content: center;
+  place-items: center;
 }
 
 .pdtbanners{
   display: grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-auto-rows: minmax(100px,200px);
+  /* grid-template-columns: repeat(6,1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-auto-rows: 300px;
+  justify-content: space-between;
+
+
 }
+.items{
+  background-color: #f6f6f6;
+  box-sizing: border-box;
+  margin: 20px;
+  border: 1px solid rgb(173, 173, 173);
+  padding: 10px;
+  border-radius: 5px;
+  /* filter: drop-shadow(); */
+    box-shadow: 0 2px 4px rgba(10, 21, 10, 0.5);
+}
+
 
 .items img{
   width: 100%;
-  height: 100%;
-  object-fit: fill;
+  height: 90%;
+
 }
 /* lower banner styling ended  */
 
