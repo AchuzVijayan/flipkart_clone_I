@@ -127,7 +127,6 @@ main {
 }
 
 #sec3 {
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   justify-items: space-between;
@@ -138,14 +137,60 @@ main {
 .banner_div {
   height: 250px;
   box-sizing: border-box;
-  justify-self: stretch;
+  /* justify-self: stretch; */
 }
 
 .banner_div img {
   height: 100%;
   width: 100%;
   object-fit: fill;
-  
+
   padding: 0px 0px 1px 0px;
   box-sizing: border-box;
+}
+
+#sec4 {
+  display: grid;
+  background-color: #1d4eb1;
+  padding: 20px 0px;
+}
+#lower_ban_header {
+  place-self: center;
+
+}
+
+#lower_ban_header h2 {
+  font-size: x-large;
+}
+
+#prds {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  box-sizing: border-box;
+  column-gap: 10px;
+}
+
+.items {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #15c415;
+  align-self: center;
+  border: 1px solid gainsboro;
+  margin-bottom: 20px;
+
+}
+
+.items img {
+  height: 90%;
+  width: 99%;
+  object-fit: fill;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.items a>h4{
+font-size: large;
 }
