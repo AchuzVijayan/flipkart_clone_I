@@ -181,7 +181,7 @@ main {
 }
 
 .items {
-  height: 250px;
+  height: 260px;
   width: 200px;
   border-radius: 10px;
   box-sizing: border-box;
@@ -202,4 +202,5 @@ main {
 
 .items a>h4{
 font-size: large;
+margin-bottom: 10px;
 }

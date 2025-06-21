@@ -81,7 +81,16 @@ nav {
   display: grid;
   background-color: #fbfcfe;
   grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
-  justify-content: space-evenly;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.navitemlinks img{
+  height: 80%;
+  width: 99%;
+  object-fit: fill;
+  /* padding: 0px; */
   box-sizing: border-box;
 }
 
@@ -99,8 +108,8 @@ a h4 {
   margin: 0px 8px;
   justify-self: center;
   align-self: stretch;
-  width: 120px;
-  height: 130px;
+  width: 100px;
+  height: 150px;
 }
 
 main {
