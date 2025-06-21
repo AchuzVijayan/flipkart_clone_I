@@ -125,3 +125,27 @@ main {
   width: 100%;
   object-fit: fill;
 }
+
+#sec3 {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  justify-items: space-between;
+  box-sizing: border-box;
+  column-gap: 10px;
+}
+
+.banner_div {
+  height: 250px;
+  box-sizing: border-box;
+  justify-self: stretch;
+}
+
+.banner_div img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  
+  padding: 0px 0px 1px 0px;
+  box-sizing: border-box;
+}
