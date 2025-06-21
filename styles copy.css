@@ -1,13 +1,13 @@
-body{
+body {
   margin: 0px auto;
   background-color: #f0eef4;
 }
 
-#head_container{
+#head_container {
   display: grid;
-  grid-template-columns: minmax(50px, 1fr)   1.5fr  minmax(50px, 1fr);
-  background-color: #fbfcfe;
-  grid-auto-rows: minmax(50px,auto);
+  grid-template-columns: minmax(50px, 1fr) 1.5fr minmax(50px, 1fr);
+  background-color: #2d5cbb;
+  grid-auto-rows: minmax(50px, auto);
   width: 100%;
   box-sizing: border-box;
   justify-items: center;
@@ -29,7 +29,6 @@ body{
   box-sizing: border-box;
   margin-left: 10px;
   margin-right: 10px;
-  /* appearance: none; */
 }
 
 #input_search {
@@ -40,10 +39,7 @@ body{
   background-color: #f0eef4;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(10, 21, 10, 0.5);
-
 }
-
-
 
 .searchb {
   background-color: rgb(121, 75, 6);
@@ -53,11 +49,6 @@ body{
 nav {
   justify-self: center;
   padding: 0px 10px;
-  /* border: 1px solid black; */
-
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit,10px); */
-
 }
 
 .navb {
@@ -65,7 +56,6 @@ nav {
   color: white;
   margin: 0px 5px;
 }
-
 
 .button {
   margin: 2px 0px;
@@ -79,4 +69,47 @@ nav {
 .button:hover {
   border-radius: 20px/10px;
   background-color: rgb(111, 62, 157);
+}
+
+
+/* header styling ended */
+
+/* main styling started */
+
+/* navigation_links_sec styles started */
+
+#navigation_links_sec{
+  display: grid;
+  background-color: #fbfcfe;
+  grid-template-columns: repeat(auto-fit, minmax(50px,100px));
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  /* width: 98vw;
+  margin: 0px auto; */
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a h4{
+  margin: 0px auto;
+  text-align: center;
+}
+
+.navitemlinks{
+  margin:0px 8px;
+  justify-self: center;
+  align-self: stretch;
+  width: 120px;
+  height: 130px;
+}
+
+main{
+  padding-top:10px ;
+  width: 98vw;
+  margin: 0px auto;
+  display: grid;
+  row-gap: 1vh;
 }
