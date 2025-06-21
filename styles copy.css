@@ -109,7 +109,7 @@ main {
   margin: 0px auto;
   display: grid;
   row-gap: 10px;
-  background-color: black;
+  /* background-color: black; */
   box-sizing: border-box;
 }
 
@@ -151,7 +151,7 @@ main {
 
 #sec4 {
   display: grid;
-  background-color: #1d4eb1;
+  background-color: #FEFDFD;
   padding: 20px 0px;
 }
 #lower_ban_header {
@@ -176,7 +176,7 @@ main {
   width: 200px;
   border-radius: 10px;
   box-sizing: border-box;
-  background-color: #15c415;
+  background-color: #FEFDFD;
   align-self: center;
   border: 1px solid gainsboro;
   margin-bottom: 20px;
